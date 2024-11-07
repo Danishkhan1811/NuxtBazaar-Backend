@@ -30,7 +30,7 @@ app.use(session({
     saveUninitialized: false,
     store: MongoStore.create({ mongoUrl: process.env.MONGO_URI }),
     cookie: {
-        secure: false, // Set to true if using https
+        secure: true,
         httpOnly: true,
         sameSite: 'lax'
     }
