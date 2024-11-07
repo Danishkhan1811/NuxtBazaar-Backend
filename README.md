@@ -10,10 +10,10 @@ NuxtBazaar-Backend is a backend application designed to support the NuxtBazaar e
 
 ## API Endpoints
 Here are some of the key API endpoints available in NuxtBazaar-Backend:
-# GET /api/products: Retrieve a list of all products.
-# POST /api/products: Add a new product.
-# GET /api/users: Retrieve user information.
-# POST /api/orders: Create a new order.
+- GET /api/products: Retrieve a list of all products.
+- POST /api/products: Add a new product.
+- GET /api/users: Retrieve user information.
+- POST /api/orders: Create a new order.
 
 ## Installation
 To set up the NuxtBazaar-Backend locally, follow these steps:
